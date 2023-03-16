@@ -1,0 +1,149 @@
+body{
+    font-family: montserrat;
+    
+}
+/* body::-webkit-scrollbar { width: 0 !important } */
+#title{
+    background-color: black;
+}
+.hh{
+    font-family: montserrat-black 900;
+    color: white;
+    font-size: 3rem;
+    line-height: 1.5;
+    letter-spacing: 2px;
+}
+.navbar-brand{
+    margin-top: 10px;
+    margin-left: 15%;
+    letter-spacing: 2px;
+    font-weight: bold;
+    font-family: ubuntu;
+    font-size: 3rem;
+}
+.navbar-nav{
+    margin-right: 24%;
+}
+.nav-item{
+    padding: 0 18px;
+}
+.nav-link{
+    font-family: montserrat-light 300;
+    font-size: 2 rem;
+}
+.rr{
+    padding: 3% 15%;
+}
+.cc{
+    padding-top: 7%;
+}
+.download-btn{
+    margin: 5% 3% 5% 0%;
+}
+
+/* Section 2 */
+#features{
+    padding: 7% 15%;
+}
+.feature-box{
+    text-align: center;
+    padding: 5%;
+}
+h3{
+    font-family: ubuntu-bold 700;
+}
+p{
+    color: #8f8f8f;
+}
+.icon-a{
+    font-size:50px;
+}
+.icon-a:hover{
+    color: gray;
+}
+
+/* Section 3 */
+#testimonials{
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+.testimonial-text{
+    font-size: 3rem;
+    font-family:montserrat-black 900 ;
+    line-height: 1.4;
+}
+.testimonial-image{
+    width: 40%;
+    margin-top: 3%;
+}
+.testimonial-image-2{
+    border-radius: 100%;
+}
+.carousel-item{
+    padding: 3% 15%;
+}
+
+/* section 4 */
+#press{
+    background-color: black;
+    text-align: center;
+    padding-bottom: 3%;
+}
+.press-img{
+    width: 19%;
+    text-align: center;
+    padding: 0px 30px 0px;
+}
+
+/* section 5 */
+#pricing{
+    padding: 100px;
+    text-align: center;
+}
+.ph{
+    font-family: montserrat-black 900;
+    font-size: 3rem;
+    line-height: 1.5;
+    /* letter-spacing: 2px; */
+}
+.pricing-col{
+    padding: 3% 2%;
+}
+
+/* section 6 */
+#cta{
+    background-color: black;
+    text-align: center;
+    padding: 3% 15%;
+    
+}
+.cta-h{
+    color: white;
+    font-family: montserrat-black 900;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+.d-btn{
+    margin: 1% 1% 5% 2%;
+}
+
+/* section 7 */
+#footer{
+    padding: 3% 15%;
+    text-align: center;
+}
+
+.f-icon{
+    font-size:25px;
+    margin: 20px 10px;
+}
+
+
+@media (max-width:1028px) {
+    
+ 
+    #title{
+        text-align: center;
+    }
+}
